@@ -16,3 +16,9 @@ celery>=5.3
 # Required for Celery to communicate with RabbitMQ (as a broker)
 # Note: You need RabbitMQ running separately (not a Python package)
 amqp>=5.2
+
+# MySQL driver for Django
+mysqlclient>=2.2
+
+# For managing environment variables securely
+django-environ>=0.11
