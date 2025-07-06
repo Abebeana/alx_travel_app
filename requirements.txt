@@ -1,0 +1,18 @@
+# Core Django framework
+django>=4.2
+
+# Django REST Framework for building APIs
+djangorestframework>=3.14
+
+# Allows Cross-Origin Resource Sharing, useful when frontend and backend are on different domains/ports
+django-cors-headers>=4.3
+
+# Swagger documentation generator for Django REST Framework
+drf-yasg>=1.21
+
+# Task queue system for asynchronous/background jobs
+celery>=5.3
+
+# Required for Celery to communicate with RabbitMQ (as a broker)
+# Note: You need RabbitMQ running separately (not a Python package)
+amqp>=5.2
